@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="cover">
+            <note> </note>
+         </div>
+         <div type="inlet">
+            <head> </head>
+         </div>
+      </front>
+
+      <body>
+         <div type="spain">
+            <ab> </ab>
+         </div>
+         <div type="portugal">
+            <ab> </ab>
+         </div>
+         <div type="reading_notes">
+            <pb facs="#f-167" n="167"/>
+            <fw>38</fw>
+
+            <ab><label><rs type="place" ref="XXX">SPAIN</rs></label>
+               <choice>
+                  <abbr>Temp</abbr>
+                  <expan>In the time of</expan>
+               </choice>. <rs type="person" ref="XXX">Philip 2d</rs>. he was very poor yet 58
+               Archbishops. 684 Bishops. 11 400 abbots. 936 chapters. 127 000 parishes. 7,000
+               hospitals. 23,000 fraternities. 46,000 monasteries. 135 000 convents. 312 000 secular
+               priests. 200 000 inferior ecclesiastics. 400 000 monks &amp; nuns. &amp; whole
+               population 10.500000. at least 400 000 Moors banished by <rs type="person" ref="XXX"
+                  >Philip III</rs>. </ab>
+
+            <ab><rs type="person" ref="XXX">Philip IIs</rs> revenue 30 000 000 of ducats – not half
+               had his <rs type="person" ref="XXX">Successor</rs>, whose public debt exceeded 100.
+                  <rs type="person" ref="XXX">Charles II</rs> had only 7 or 8 000 000 of francs. <rs
+                  type="person" ref="XXX">Philip V</rs> only 7,500000 souls <rs type="person"
+                  ref="XXX">Charles III</rs> had 11 000 000 souls. From beginning of <rs
+                  type="person" ref="XXX">Ferdinand</rs>s reign to end of next reign revenue had
+               increased from 26,000000 to 60 … … <note type="editorial"> i.e. 60,000,000</note> of
+               crowns</ab>
+
+            <metamark/>
+
+            <ab><rs type="person" ref="XXX">Conde</rs> Vol 2 p108 says el <rs type="person"
+                  ref="XXX">Rey Alfonso de Galicia</rs> ufano y evanecido de sus victorias y de la
+               conquista de <rs type="place" ref="XXX">Toledo</rs> cabeza de <rs type="place"
+                  ref="XXX">España</rs> y casa principal de los Reyes Godos <note type="translation">
+                  <rs type="person" ref="XXX">King Alfonso of Galicia</rs>, made proud and conceited
+                  [envanecido] by his victories and the conquest of <rs type="place" ref="XXX"
+                     >Toledo</rs>, capital of <rs type="place" ref="XXX">Spain</rs> and main home of
+                  the Gothic Kings </note> having a secret understanding with <rs type="person"
+                  ref="XXX">Abed of Sevilla</rs>. <rs type="person" ref="XXX">Aben Abed
+                  Almutamad</rs> was king of <rs type="place" ref="XXX">Seville</rs>
+               <rs type="person" ref="XXX">Alfonso</rs> had already made tributary <rs type="person"
+                  ref="XXX">Yahye Alcadir de <note type="translation">of</note> Valencia</rs>.
+                  <rs>Alfonso</rs> wrote to <rs>Aben Abed</rs> that he would have certain places
+               &amp; Castles by force.</ab>
+
+            <metamark/>
+
+            <ab><rs type="person" ref="XXX">Alfonso</rs> wrote this, "Del Emperador y señor de las
+               dos leyes y naciones, el excelente y poderoso <rs type="person" ref="XXX">Rey D.
+                  Alfonso ben Sancho</rs> al <rs type="person" ref="XXX">Rey Almutemed bila Aben
+                  Abed</rs>, que Dios fortifique y alumbre su entendimiento para que se determine a
+               seguir el verdadero camino que os conviene. salud y Buena voluntad de <cb/> parte de
+               un Rey engrandecedor de reynos y amparador de pueblos, al cual han encanecido los
+               cabellos en el conocimiento y prudencia de las cosas y en el ejercicio y destreza de
+               las armas, y en perpetua consecucion de victorias en cuya casa nació la consecution
+               de sus deseos y el cumplimiento de su voluntad en cuyas banderas esta de asiento la
+               Victoria <note type="translation">From the Emperor and lord of the two laws and
+                  nations, the excellent and powerful <rs type="person" ref="XXX">King Don Alfonso
+                     ben Sancho</rs> to <rs type="person" ref="XXX">King Almutemed bila Aben
+                     Abed</rs>, may God fortify and illuminate his understanding that he may be
+                  determined to follow the true path that suits you [plural]. Health and goodwill on
+                  the part of a King who is an aggrandiser of kingdoms and a protector of peoples,
+                  whose hair has greyed in the knowledge and prudence of things and in the exercise
+                  and skill of arms, and in perpetual achievement of victories, in whose house was
+                  born the achievement [Conde has 'consecucion'] of his desires and the fulfilment
+                  of his will, in whose banners Victory sits...<note type="editorial">This is the
+                     beginning of a longer letter printed by <rs type="person" ref="XXX">Conde</rs>,
+                     vol. 2, pp. 109-10.</note></note><note type="editorial">Conde, Historia de la
+                  dominacion, vol. 2, pp. 108-9.
+                  <!-- referred to this ab and previous one --></note>
+            </ab>
+
+            <metamark/>
+
+            <ab>Goths entered <rs type="place" ref="XXX">Spain</rs>
+               <date when="0409">409</date>. beat Romans &amp; natives <rs type="person" ref="XXX"
+                  >Goths King</rs> married <rs type="person" ref="XXX"><choice>
+                     <abbr>daur of Emp.</abbr>
+                     <expan>daughter of Emperor</expan>
+                  </choice> Theodosius</rs>. Natives retired to <rs type="place" ref="XXX"
+                  >Galicia</rs>. 418 Vandals. <date when="0456">456</date>
+               <rs type="person" ref="XXX">Theodoric the Goth</rs> beat <rs type="person" ref="XXX"
+                  >king of Suevi</rs>. <rs type="person" ref="XXX">Euric son of <choice>
+                     <abbr>Theodc</abbr>
+                     <expan>Theodoric</expan>
+                  </choice></rs> went from <rs type="place" ref="XXX">Pyrenees</rs> to <rs
+                  type="place" ref="XXX">Rhone</rs> but <rs type="person" ref="XXX">Clovis</rs>
+               retook this from <rs type="person" ref="XXX">Alaric son of Euric</rs>. <date
+                  when="0624">624</date>
+               <rs type="person" ref="XXX"><choice>
+                     <abbr>Kg</abbr>
+                     <expan>King</expan>
+                  </choice> Suintilla</rs>
+               <choice>
+                  <abbr>Kg</abbr>
+                  <expan>King</expan>
+               </choice> of whole Peninsula. <rs type="place" ref="XXX">Ceuta</rs> resisted moors.
+                  <rs type="person" ref="XXX">Count Julian</rs> its Governor. <rs type="person"
+                  ref="XXX">Musa</rs> could not take it. <rs type="person" ref="XXX"><choice>
+                     <abbr>Kg</abbr>
+                     <expan>King</expan>
+                  </choice> Witizas Sister</rs>
+               <rs type="person" ref="XXX">Julians wife</rs>. <date when="0712">712</date>
+               <rs type="person" ref="XXX">Taric</rs> defeats <rs type="person" ref="XXX"
+                  >Roderic</rs> at <rs type="place" ref="XXX">Xeres</rs>. <rs type="person"
+                  ref="XXX">Palagius</rs> retires to <rs type="place" ref="XXX">Asturias</rs>. Goths
+               Arians first.</ab>
+
+            <metamark/>
+
+
+            <ab>Under <rs type="person" ref="XXX">Tarik</rs>. Royal Legion of <rs type="place"
+                  ref="XXX">Damascus</rs> at <rs type="place" ref="XXX">Cordova</rs>. Legion of
+               Emesa at <rs type="place" ref="XXX">Seville</rs>
+               <list>
+                  <item>of <rs type="place" ref="XXX">Kinnisrin</rs> or <rs type="place" ref="XXX"
+                        >Calchis</rs> at <rs type="place" ref="XXX">Jaen</rs></item>
+                  <item>of <rs type="place" ref="XXX">Palestine</rs> at <rs type="place" ref="XXX"
+                        >Algeziras</rs> &amp; <rs type="place" ref="XXX">Medina Sidonia</rs></item>
+                  <item>of <rs type="place" ref="XXX">Yemen</rs> &amp; <rs type="place" ref="XXX"
+                        >Persia</rs> at <rs type="place" ref="XXX">Toledo</rs></item>
+                  <item><rs type="place" ref="XXX">Egypt</rs> in <rs type="place" ref="XXX"
+                        >Murcia</rs> &amp; <rs type="place" ref="XXX">Lisbon</rs></item>
+                  <item>of cavalry of <rs type="place" ref="XXX">Irak</rs> &amp; <rs type="place"
+                        ref="XXX">Syria</rs> at <rs type="place" ref="XXX">Granada</rs>. These were
+                     10 000 of the most noble Arabs &amp; Syrians.</item>
+               </list>
+               <rs type="place" ref="XXX">Spain</rs> under <rs>Viceroy of Caliphs</rs> till <rs
+                  type="person" ref="XXX">Ommiades <note type="editorial">Umayyads</note></rs> fell.
+               When one of them came to Spain x was <rs type="person" ref="XXX">Caliph
+                  Abdalrahman</rs>. He beat the Abbassides<note type="editorial">Abbasids</note>
+               &amp; reigned at <rs type="place" ref="XXX">Cordova</rs>. This race lasted abt 250
+               years. Then split into Kingdoms.</ab>
+
+            <metamark/>
+
+            <ab><rs type="person" ref="XXX">Pelagius</rs> founded <choice>
+                  <abbr>Km.</abbr>
+                  <expan>Kingdom</expan>
+               </choice> of Leon. beat Moors <date when="0718">718</date>. <date when="0881"
+                  >881</date>
+               <rs type="person" ref="XXX">Alphonso</rs> took <rs type="place" ref="XXX"
+                  >Coimbra</rs>. <rs type="person" ref="XXX">Ramirus</rs> 2d <rs type="place"
+                  ref="XXX">Madrid</rs> &amp; almost <rs type="place" ref="XXX">Toledo</rs>. <note
+                  type="editorial">
+                  <!-- referred to this ab and previous one -->From <rs type="person" ref="XXX"
+                     >David Brewster</rs> (ed.), The Edinburgh Encyclopaedia, 18 vols (Edinburgh,
+                  1830), vol. 18, pp. 277-9. The Encyclopaedia paraphrases <rs type="person"
+                     ref="XXX">Edward Gibbon</rs>'s History of the Decline and Fall of the Roman
+                  Empire here (vol. 5, including chapters LI and LII), but the order and precise
+                  wording of observations shows WG was reading Brewster.</note>Vide p17 <note
+                  type="editorial">WG's page 17 of this notebook (pag 186).</note></ab>
+         </div>
+      </body>
+
+      <back>
+         <div type="cover">
+            <note> </note>
+         </div>
+         <div type="index"> </div>
+      </back>
+   </text>
+
+</TEI>

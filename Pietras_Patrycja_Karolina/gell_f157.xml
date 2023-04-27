@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="cover">
+            <note> </note>
+         </div>
+         <div type="inlet">
+            <head> </head>
+         </div>
+      </front>
+
+      <body>
+         <div type="spain">
+            <ab> </ab>
+         </div>
+         <div type="portugal">
+            <pb facs="#f-157" n="157"/>
+            <fw><date when="1811-01">Jany 1811</date></fw>
+            <fw>48</fw>
+            <figure facs="f-vvvv">
+               <note type="editorial_label">Pen and ink drawing: view of <rs type="place" ref="XXX"
+                     >Lisbon</rs></note>
+               <label>garden of Austrian minister.</label>
+               <label><rs type="place" ref="XXX">Rua Sssma<note type="editorial">i.e.
+                        Santíssima</note> Trinidade Lisboa</rs></label>
+            </figure>
+
+            <ab>The ladies played at a game called the Saints. The company took different names as
+               St Antoão St Ursula &amp;c. Each had a veil one of the ladies went round and lifting
+               up the veil asked who would buy such a saint describing him or her &amp; her
+               qualities in a ludicrous way. whoever laughed paid forfeit and stood up to sell the
+               saints.</ab>
+            <cb/>
+            <ab>The impudent attempt frequently printed to make Latin &amp; Portuguese the same
+               <note type="editorial">Noted by many travellers, including <rs type="person" ref="XXX">Robert Southey</rs>, Letters
+                  Written during a Journey in <rs type="place" ref="XXX">Spain</rs>, and a Short Residence in <rs type="place" ref="XXX">Portugal</rs>, 3rd edn, 2
+                  vols (London, 1808), vol. 2, p. 62. WG's hand and the passage's positioning
+                  suggests that this was a later addition rather than an observation during his own
+                  travels. <rs type="person" ref="XXX">WG</rs> has two more lines than <rs type="person" ref="XXX">Southey</rs> (lines that appear in other versions),
+                  though, and <rs type="person" ref="XXX">WG</rs> uses different punctuation, so <rs type="person" ref="XXX">Southey</rs> was not his
+               source.</note></ab>
+            <metamark/>
+            
+            <lg><l>Canto tuas palmas famosos canto triumphos</l>
+            <l>Ursula divinos martyr concede favores</l>
+            <l>Subjectas sacra nympha feros animosa tirannos</l>
+            <l>Tu phoenix vivendo ardes ardendo triumphos</l>
+            <l>Illustres generosa choros ‘das Ursula, bellas</l>
+            <l>Das rosa bella rosas fortes das sancta columnas</l>
+               <l>&#198;ternas vivas annos o regia planta</l>
+            <l>Devoto cantando hymnos, vos invoco sanctas</l>
+            <l>Tam puras nymphas amo adoro canto celebro</l>
+            <l>Per vos felices annos o candida turba.</l>
+            <l>Per vos innumeros de Christo spero favores.</l></lg>
+            <metamark/>
+            
+            <ab>In <rs type="place" ref="XXX">Cathedral of Granada</rs> are carvings.</ab>
+            <ab><rs type="person" ref="XXX">Abdallah</rs> delivering Keys of City to <rs type="person" ref="XXX">Ferdinand</rs>.</ab>
+            <ab>Moors with hands tied going into exile</ab>
+            <ab>Moors male &amp; female baptized. Costumes perfect.</ab>
+            <ab>In Cathedral Tomb of <rs type="person" ref="XXX">Ferdinand</rs> &amp; <rs type="person" ref="XXX">Isabella of marble</rs></ab>
+         </div>
+         <div type="reading_notes">
+            <ab> </ab>
+         </div>
+      </body>
+
+      <back>
+         <div type="cover">
+            <note> </note>
+         </div>
+         <div type="index"> </div>
+      </back>
+   </text>
+
+</TEI>

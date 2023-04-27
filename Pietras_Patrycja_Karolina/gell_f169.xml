@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="cover">
+            <note> </note>
+         </div>
+         <div type="inlet">
+            <head> </head>
+         </div>
+      </front>
+
+      <body>
+         <div type="spain">
+            <ab> </ab>
+         </div>
+         <div type="portugal">
+            <ab> </ab>
+         </div>
+         <div type="reading_notes">
+            <pb facs="#f-169" n="169"/>
+            <fw>36</fw>
+            <label><rs type="person" ref="XXX">Conde</rs> Followed</label>
+            <note type="editorial">Extracts from/summary of <rs type="person" ref="XXX">Conde</rs>, Historia de la dominacion, vol.
+               1, pp. xxi-xxiv.</note>
+            <!-- refers to the whole document -->
+            <ab> Works of <rs type="person" ref="XXX">Abu Abdala Muhamad ben Abi Nasr el Homaidi</rs> de <rs type="place" ref="XXX">Cordova</rs>. Cronica de la
+               conquista de <rs type="place" ref="XXX">Espa&#xF1;a</rs>. Amires &amp;c la serie de los Beni Omeyas, Reyes de Cordoba, y
+               vidas de varones ilustres de <rs type="place" ref="XXX">Espa&#xF1;a</rs>. <date when="0450" calendar="islamic">450 de
+                  Hegira</date> continued by Ahmed ben Yahye ben Ahmed ben Omeira Edobi de Mallorca
+               <date when="0560" calendar="islamic">560</date>. El Homaidi cita<rs type="person" ref="XXX"> Abdelmelic ben
+                  Habib Zalemi</rs>,<rs type="person" ref="XXX"> Abdala ben Junes</rs>,<rs type="person" ref="XXX"> Abdala ben Wahib</rs>, <rs type="person" ref="XXX">Alaitz ben Saad</rs> y <rs type="person" ref="XXX">Abul Casem
+               Abderahman ben Abdala ben Abdelhakem</rs> all writers of the oldest times. Es un tomo en
+               folio escrito en papel moreno y grueso Asimismo <rs type="person" ref="XXX">Aben Alabar, el Codai Valenciano</rs>
+               escritor muy docto y extractò mucho de <rs>Abu Meruan ben Hayan ben Chalif</rs>. Tambien de
+               los anales de <rs type="person" ref="XXX">Abul Hassan ben Besam</rs> de <rs type="person" ref="XXX">Mocri abu Abdala ben Abdelaziz ben Saad Axati</rs>,
+               y de <rs type="person" ref="XXX">Iza ben Ahmed ben Muhamad ben Muza el Razif</rs>, y de <rs type="person" ref="XXX">Muhamad Abu Becar ben Jucef
+               ben Casem Xelbi</rs> en su historia de <rs>Aben Abed Rey de Sevilla</rs>. Obra de <rs type="person" ref="XXX">Meraudi</rs>
+               intitulada “Prados Aureos”. <date when="0327" calendar="islamic">327</date> de los
+               Arabes y la expedicion de <rs type="person" ref="XXX">Abderraman III</rs>, talas y conquistas reciprocas de <rs type="place" ref="XXX">Zamora</rs> por
+               las tropas del <rs type="person" ref="XXX">Rey de Cordoba</rs> y los Xtianos acaudillados por el <rs type="person" ref="XXX">Rey Radmir de
+               Galicia</rs>. <date when="0327" calendar="islamic">327</date> hasta <date when="0336"
+                  calendar="islamic">336</date>. <rs type="person" ref="XXX">Abul Casem Chalaf ben Abdelmelic ben Bascual de
+               Cordoba</rs> hasta el quinto siglo de la Hegira un tomo in folio. 
+               
+               <note type="translation"
+                  > Works of <rs type="person" ref="XXX">Abu Abadala Muhamad ben Abi Nasr el Homaidi <note type="editorial">i.e.
+                     Al-Humaydi</note> of Cordoba</rs>. Chronicle of the conquest of <rs type="place" ref="XXX">Spain</rs>. Emirs etc.
+                  the succession of the Beni Omeyas <note type="editorial">Umayyads</note>, Kings of
+                  Cordoba, and lives of illustrious men of Spain. <date when="0450"
+                     calendar="islamic">AH 450 <note type="editorial">Anno Hegirae: Islamic
+                        calendar</note></date>
+                  <!-- is this how we should encode a date of Islamic calendar? --> continued by
+                  Ahmed ben Yahye ben Ahmed ben Omeira, Edobi of Mallorca, <date when="0560"
+                     calendar="islamic">560</date>. Al-Humaydi cites <note type="editorial">Conde
+                        has 'cita a...'</note> <rs type="person" ref="XXX">Abdelmelic ben Habib Zalemi</rs>, <rs type="person" ref="XXX">Abdala ben Junes</rs>, <rs type="person" ref="XXX" >Abdala
+                           ben Wahib</rs>, <rs type="person" ref="XXX">Alaitz ben Saad</rs> and <rs type="person" ref="XXX">Abul Casem Abderahman ben Abdala ben Abdelhaken</rs> all
+                  writers of the oldest times. It is a volume in folio written on brown and coarse
+                  paper. In addition <rs type="person" ref="XXX">Aben Alabar, el Codai, of Valencia</rs>, very learned writer and he
+                  extracts much from <rs type="person" ref="XXX">Abu Meruan ben Hayan ben Chalf</rs> <note type="editorial">according
+                     to Conde</note>. Also from the annals of <rs>Abul Hasan</rs> <note type="editorial"
+                        >Conde</note>, <rs type="person" ref="XXX">ben Besam</rs>, <rs type="person" ref="XXX">Mocri abu Abdala ben Abdelaziz ben Saad Axati</rs>, and
+                  <rs type="person" ref="XXX">Iza ben Ahmed ben Muhamad ben Muza el Razif</rs>, and <rs type="person" ref="XXX">Muhamad Abu Becar ben Jucef ben
+                     Casem Xelbi</rs> in his history of <rs type="person" ref="XXX">Aben Abed, King of Seville</rs>. Work of <rs type="person" ref="XXX">Meraudi</rs> entitled
+                  'Golden Meadows'. <date when="0327" calendar="islamic">327 of the Arabs <note
+                     type="editorial">i.e. AH 327</note></date> and the expedition of <rs type="person" ref="XXX">Abderraman
+                        III</rs>, cutting down and reciprocal conquests of <rs type="place" ref="XXX">Zamora</rs> by the troops of the <rs type="person" ref="XXX">King of
+                           Cordoba</rs> and the Christians led by <rs type="person" ref="XXX">King Radmir of Galicia</rs>. <date when="0327"
+                     calendar="islamic">[AH] 327</date> to <date when="0336" calendar="islamic">[AH]
+                        336</date>. <rs type="person" ref="XXX">Abul Casem Chalaf ben Abdelmelic ben Bascual of Cordoba</rs> <note
+                     type="editorial">covers the period</note> until the <date notBefore="0401" notAfter="0500" calendar="islamic">fifth century of Hegira</date>, a
+                  volume in folio.</note></ab>
+
+            <metamark/>
+            <cb/>
+
+            <ab>Epoch of the Almoravides y de los Almohades en la historia de Fez de <rs type="person" ref="XXX">Abdel Halim de
+               Granada</rs> <date when="0726">726</date> – tomo en quarto en papel. <rs type="person" ref="XXX">Lizan-Edin ben Alchatib Asalemani</rs> Secretario
+               de los Reyes de Granada. called El Plenilunio de la dymnastia Nasrina en Granada: y 3
+               tomos en folio biograficas 2 Memorias 1. <rs type="person" ref="XXX">Abdala Algiazami de Malaga</rs> wrote Granada y
+               la historia de sus Reyes. <rs type="person" ref="XXX">Ahmed Almaxarsi</rs> del <rs type="person" ref="XXX">Rey Jucef Abul Hagiag el augusto de
+               Granada</rs>. Y de la de los Beni Merinas in prose &amp; verse by <rs type="person" ref="XXX">Ismail ben Jucef Amir de
+               Malaga</rs>, intitulada “Olor de la rosa”. Anales de Abulfeda, los de Xakiki y de Fesani
+               Anales de Aben Sohna. Obra de <rs type="person" ref="XXX">Abu Teib de Ronda</rs> anecdotes of Princes &amp; Arabs
+               &amp;c Obra rara de <rs type="person" ref="XXX">Abdala Aly ben Abderahman ben Huzeil de Granada</rs>. expediciones
+               sacras o guerras contra Christianos, de arte militar de hacer frontera, de ardides y
+               estrategemas de guerra, armas, maquinas, y caballeria. es muy curioso en los usos y
+               costumbres de los Arabes Espa&#xF1;oles. Tomo in folio escrito en papel moreno y grueso,
+               de harta antigüedad. La mayor parte de estos M.S.S estan en <rs type="place" ref="XXX">la Bibliotheca Real
+               publica en Madrid</rs> y en <rs type="place" ref="XXX">la Escorial</rs> At <rs type="place" ref="XXX">Paris in Royal library</rs> “Historia de Espana y su
+               description por <rs type="person" ref="XXX">Ahmed el Mocri Almagrebi</rs> in Arabic. <rs type="peron" ref="XXX">Condes</rs> book. La primera trata de
+               la entrada de los Arabes en Espana, y la sucesion de los Amires, o caudillos de la
+               conquista dependientes de los Calyfas de Oriente. La 2a contiene el establecimiento
+               de la monarquia de los Beni Omeyas y la sucesion de estos Reyes. La tercera comprende
+               la guerra civil y division de los reynos en <rs type="place" ref="XXX">Espa&#xF1;a</rs>: venida de los Almoravides y
+               Almohades y la sucesion de estas dymnastias. Y la quarta es toda del <rs type="place" ref="XXX">reyno de Granada</rs>
+               ultimo period de la dominacion Arabiga en <rs type="place" ref="XXX">Espa&#xF1;a</rs>. <note type="translation">Epoch of
+                  the Almoravids and Almohads in the history of Fez by <rs type="person" ref="XXX">Abdel Halim of Granada</rs> <date when="0726">726</date> -
+                  volume in quarto on paper. <rs type="person" ref="XXX">Lizan-Edin ben Alchatib Asalemani</rs>, Secretary to the
+                  Kings of Granada. Called the Full Moon of the Nasrid dynasty in Granada: and 3
+                  volumes in folio, 2 biographical and 1 memoirs. <rs type="person" ref="XXX">Abdala Algiazami of Málaga</rs> wrote
+                  Granada and the history of its Kings. <rs type="person" ref="XXX">Ahmed Almaxarsi</rs> <note type="editorial">wrote</note> about <rs type="person" ref="XXX">King Jucef
+                  Abul Hagiag the august of Granada</rs>. And of the <note type="editorial">history</note> of the Beni Merinas in
+                  prose and verse by <rs type="person" ref="XXX">Ismail ben Jucef, Emir of Málaga</rs>, entitled 'Scent of the rose'.
+                  Annals of Abulfeda, those of Xakiki and of Fesani Annals of Aben Sohna. Work of
+                  <rs type="person">Abu Teib of Ronda</rs> anecdotes of Princes and Arabs etc Rare work of <rs type="person" ref="XXX">Abdala Aly ben
+                  Abderahman ben Huzeil of Granada</rs>. <note type="editorial">Treats of</note> holy expeditions or wars against
+                  Christians <note type="editorial"><rs type="person" ref="XXX">Conde</rs>: 'Cristianos'</note>, of the art of war, of making frontiers, of
+                  schemes and strategies of war, weapons, siege engines, and cavalry. It is very
+                  curious on the usages and customs of the Spanish Arabs. Volume in folio written on
+                  brown, coarse paper, of great antiquity. Most of these manuscripts are in the
+                  <rs type="place" ref="XXX">royal public library <note type="editorail"><rs type="person" ref="XXX">Conde</rs>: 'biblioteca'</note> of Madrid and the Escorial</rs>. At Paris in
+                  Royal library 'History of Spain and its description<note type="editorial">'</note> by <rs type="person" ref="XXX">Ahmed el Mocri Almagrebi</rs>
+                  in Arabic. <rs type="person" ref="XXX">Conde</rs>'s book. The first <note type="editorial">volume</note> deals with the arrival of the Arabs in
+                  Spain, and the succession of the Emirs, or leaders of conquest, dependent on the
+                  Caliphs of the East. The second contains the establishment of the monarchy of the
+                  Beni Omeyas <note type="editorial">Umayyads</note> and the succession of these Kings. The third comprises the
+                  civil war and division of the kingdoms of Spain: the coming of the Almoravids and
+                  the Almohads and the succession of these dynasties. And the whole of the fourth is
+                  about the <rs type="place" ref="XXX">kingdom of Granada</rs>, the last period of Arab domination in
+               Spain.</note></ab>
+         </div>
+      </body>
+
+      <back>
+         <div type="cover">
+            <note> </note>
+         </div>
+         <div type="index"> </div>
+      </back>
+   </text>
+
+</TEI>

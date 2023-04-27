@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <front>
+         <div type="cover">  <note> </note>  </div>
+         <div type="inlet"> <head> </head> </div>
+      </front>
+      
+      <body>
+         <div type="spain"> <ab> </ab> </div>
+         <div type="portugal"> <ab> </ab> </div>
+         <div type="reading_notes"> 
+         
+            <pb facs="#f-166" n="166"/>
+            <fw>39</fw>
+            <metamark><note type="editorial">O with X through (Indicating continuation from previous page)</note></metamark>
+            <ab>Ergo the <rs type="person" ref="XXX">Troubadours</rs> came first from <rs type="place" ref="XXX">Catalonia</rs>, <rs type="person" ref="XXX">Pittoni</rs> in history of Aix says “Ce fut sous eux que nous Provençaux trouverent l’art de rimer”<note type="translation">It was under them that we Provençals found the art of rhyme.</note>. Hence Toulouse under the Berengers metropolis of Troubadours.</ab>
+            <ab><rs type="person" ref="XXX">Abderramen King of <rs type="place" ref="XXX">Cordova</rs></rs> invaded <rs type="place" ref="XXX">Toulouse</rs> in <date notBefore="0701" notAfter="0800">8th century</date>. Then <rs type="person" ref="XXX">Charlemagne</rs> invaded <rs type="place" ref="XXX">Spain</rs>.</ab>
+            <ab><rs type="person" ref="XXX">Alphonso 6th of <rs type="place" ref="XXX">Castile</rs></rs> conqueror of <rs type="place" ref="XXX">Toledo</rs> being dethroned by his brother <rs type="person" ref="XXX">Sancho</rs> fled to the <rs type="person" ref="XXX">Saracen King of <rs type="place" ref="XXX">Toledo</rs></rs>. &amp; remained 3 years, recovering his throne he took <rs type="place" ref="XXX">Toledo</rs> from the son of his benefactor, a siege of 5 years, The Moors by stipulation remained at <rs type="place" ref="XXX">Toledo</rs> under the <choice><abbr>Xtians</abbr><expan>Christians</expan></choice> with laws property &amp; grand mosque. &amp; Arabic for more than 100 years the tongue. Some years later <rs type="person" ref="XXX">Alfonso</rs> defeated at <rs type="place" ref="XXX">Medina</rs> by <rs type="person" ref="XXX">Kings of <rs type="place" ref="XXX">Cordova</rs> &amp; <rs type="place" ref="XXX">Seville</rs></rs>, he made peace marrying <rs>Za&#xEF;de daughter of the Moorish<note type="editorial">Here, WG has used 'Moorish' rather than the FQR's 'Saracen'.</note> <rs type="person" ref="XXX">King of Seville</rs></rs>.</ab>
+            <ab><rs type="place" ref="XXX">Toledo</rs> taken in <date when="1085">1085</date>, here Moors French &amp; Spanish lived together. <rs type="person" ref="XXX">Wm of Poictiers<note type="editorial"><rs type="person" ref="XXX">William of Poitiers</rs> (c. 1020-90)</note></rs> first of <rs type="person" ref="XXX">Troubadours</rs> known went with <rs type="person" ref="XXX">Alphonso</rs> against <rs type="place" ref="XXX">Toledo</rs>.</ab>
+            <ab><rs type="person" ref="XXX">Homer</rs> unknown <date notBefore="0301" notAfter="1400">from 4th to 14th century</date>. Among <rs type="person" ref="XXX">Chas. Vths <note type="editorial"><rs type="person" ref="XXX">Charles V</rs>'s</note></rs> library at the <rs type="place" ref="XXX">Louvre</rs> 900 Vols only <rs type="person" ref="XXX">Ovid Lucan</rs> &amp; <rs type="person" ref="XXX">Bo&#xEB;thius</rs>.</ab>
+            <ab>Sonnet in form &amp; alternate rhymes all Moorish</ab>
+            <ab>Times of Chivalry says Sismondy never existed but in Romance.</ab>
+            <ab><rs type="person" ref="XXX">Berengere wife of <rs type="person" ref="XXX">Alfonso VIII of <rs type="place" ref="XXX">Castile</rs></rs></rs> came on walls of <rs type="place" ref="XXX">Toledo</rs> against the besieging moors in <date when="1139">1139</date> called them cowards &amp; dared them to leave a woman quiet &amp; go &amp; meet the <rs type="person" ref="XXX">King</rs> at <rs type="place" ref="XXX">Oreja</rs>. The Moors did so, lauding her beauty &amp; virtue</ab>
+            <ab>In <date notBefore="0901" notAfter="1000">10 century</date> the <rs type="person" ref="XXX">monk Gerbert alias pope Sylvester II</rs> studied at Moorish college at <rs type="place" ref="XXX">Seville</rs>. so after did <rs type="person" ref="XXX">Adelard</rs>, <rs type="person" ref="XXX">Gerard of Cremona</rs> &amp;c.</ab>
+            <ab><rs type="person" ref="XXX">Frederic Barbarossa</rs> had Arabic books turned into Latin.</ab>
+            
+            <cb/>
+            <ab><rs type="person" ref="XXX">Petrarch</rs> says Arabs invented rhyme.</ab>
+            <ab><date notBefore="1401" notAfter="1500">15th century</date> only <rs type="person" ref="XXX">Pico of Mirandola</rs> studied Arabic.</ab>
+            <ab><rs type="person" ref="XXX">Clenard</rs> a few years after went to <rs type="place" ref="XXX">Spain</rs> to learn arabic &amp; only found one person <rs type="person" ref="XXX">Ferdinand Nuntius</rs> who knew it a little.</ab>
+            <ab><rs type="person" ref="XXX">Pope Gregory</rs> destroyed Livy. <rs type="person" ref="XXX">Cardinal Ximenes</rs> burned 5,000 fine volumes. <rs type="person" ref="XXX">One Zegri</rs> a converted Moor burn’t 150,000 volumes though converted by force.</ab>
+            <ab>When <rs type="person" ref="XXX">Philip 2d</rs> founded <rs type="place" ref="XXX">Library of Escurial</rs> he could only get 300 Arabic <choice><abbr>M.S.S.</abbr><expan>Manuscripts</expan></choice></ab>
+            <ab>The great stock afterwards added were taken by <rs type="person" ref="XXX">de Lara</rs> off Salee in <date when="1611">1611</date> in 2 moorish ships bearing the library of the <rs type="person" ref="XXX"><choice><abbr>Emp</abbr><expan>Emperor</expan></choice>: of Morocco</rs>. There were 3,000 arab <choice><abbr>M.S.S.</abbr><expan>Manuscripts</expan></choice> some said 7,800 as a Moor said. Half this burnt at a fire of Escurial in <date when="1671">1671</date>. The moorish literature not quite forgotten in <rs type="place" ref="XXX">Spain</rs> but the first work printed in Arab letters there <date notBefore="1760" notAfter="1770">1760-70</date> <rs type="place" ref="XXX">Bibliotheca Arabico-Hispana</rs>, by <rs type="person" ref="XXX">Casiri <note type="editorial"><rs type="person" ref="XXX">Miguel Casiri</rs>, Bibliotheca arabico-hispana escurialensis..., 2 vols (Madrid: Antonio Perez de Soto, 1760-1770).</note></rs>.</ab>
+            <ab>Koran printed at <rs type="place" ref="XXX">Venice</rs> <date when="1530">1530</date> probably burnt by <rs type="person" ref="XXX">Clement VII</rs> because no confutation</ab>
+            <ab>About 50 years later Arab press in <rs type="place" ref="XXX">Maronite convent at Rome</rs>.</ab>
+            <ab><rs type="person" ref="XXX">English monk Adelard</rs> turned Euclid from Arabic to Latin.</ab>
+            <ab><rs type="person" ref="XXX">Robt. of Rutland <note type="editorial"><rs type="person" ref="XXX">Robert of Ketton</rs> (fl. 1141-57), an Englishman based in <rs type="place" ref="XXX">Spain</rs>.</note></rs> translated Koran in <date notBefore="1101" notAfter="1200">12th century</date>.</ab>
+            <!-- referred to all previous text --> <note type="editorial">Summary of FQR review of <rs type="person" ref="XXX">Silvestre de Sacy</rs>, pp. 18-19, 22-5.</note>
+            <ab><rs type="person" ref="XXX">De Sacy</rs> Crestomathie Arabe good new work. 3 Vols 8oo. c <note type="editorial"><rs type="person" ref="XXX">Silvestre de Sacy</rs>, Chrestomathie Arabe..., 2nd edn, 3 vols (Paris, 1826-7).</note></ab>
+            <ab><rs type="place" ref="XXX">SIERRA NEVADA</rs>
+               <sic><rs type="place" ref="XXX">Pa de Veleta 3794 <note type="editorial">surely '<rs type="place" ref="XXX">Picacho de Veleta</rs>': Peak of Veleta</note></rs></sic>	<rs type="place" ref="XXX">Muleyhassan <note type="editorial"><rs type="place" ref="XXX">Mulhacén</rs></note></rs> 3886 yards
+            3
+            11,658
+               <rs type="place" ref="XXX">Sierra Tejada</rs> 2 557</ab>
+            
+         
+         </div>
+      </body>
+      
+      <back>
+         <div type="cover"> <note> </note> </div>
+         <div type="index"> </div>
+      </back>
+   </text>
+   
+</TEI>
